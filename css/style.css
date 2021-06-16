@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+
+.nav-link {
+  color: #777;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.banner {
+  background-image: url("../img/banner.png");
+  height: 235px;
+}
+
+#estilo h1 {
+  font-weight: 800;
+  text-transform: lowercase;
+  font-size: 60px;
+  text-align: center;
+}
+
+#estilo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#estilo div img {
+  margin: 0 27px;
+}
+
+#promocoes {
+  background-color: #C2185B;
+  
+  padding: 60px 0 100px;
+  margin-top: 208px;
+}
+
+#promocoes h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+#promocoes article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 54px;
+}
+
+#promocoes article div {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #FFF;
+
+  margin-left: 20px;
+}
+
+#promocoes article div strong {
+  margin: 15px 0 0 10px;
+}
+
+#promocoes article div p {
+  margin: 0 0 30px 10px;
+}
+
+#outlet {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  height: 1218px;
+  padding: 160px 105px 0 127px;
+}
+
+#outlet h2 {
+  display: inline-block;
+  width: 541px;
+
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 39px;
+  text-transform: uppercase;
+}
+
+#outlet #botao {
+  width: 403px;
+  height: 100px;
+
+  background-color: #C2185B;
+
+  margin: 10px 0 61px;
+}
+
+#outlet #botao p {
+  font-weight: 600;
+  font-size: 39px;
+  color: #FFF;
+
+  margin: 0px;
+  padding: 23px 85px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 248px;
+
+  background-color: #C2185B;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 0 40px 127px;
+}
+
+footer > div p {
+  width: 255px;
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  color: #FFF;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: row;
+
+  margin: 55px 0;
+}
+
+footer nav div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer nav #categorias {
+  margin-right: 136px;
+}
+
+footer nav #institucional {
+  margin-right: 148px;
+}
+
+footer nav p {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: lowercase;
+  color: #FFF;
+  margin: 0;
+}
+
+footer .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
+  color: #FFF;
+}
