@@ -13,6 +13,8 @@ body {
   margin: 0 auto;
 }
 
+/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -28,6 +30,8 @@ header {
   text-transform: uppercase;
   padding-right: 20px;
 }
+
+/* MAIN */
 
 section {
   margin-bottom: 57px;
@@ -69,14 +73,16 @@ label {
 p {
   color: #9b9b9b;
   margin-right: 40px;
+
+  text-align: justify;
 }
 
-div.options {
+div.opcoes {
   display: flex;
   margin-bottom: 15px;
 }
 
-div.options div {
+div.opcoes div {
   flex: 1;
 }
 
@@ -96,12 +102,14 @@ button {
   color: #fff;
 }
 
+/* FOOTER */
+
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
-  height: 248px;
+  padding: 20px 0;
 
   background-color: #c2185b;
 }
@@ -109,8 +117,6 @@ footer {
 footer > div {
   display: flex;
   flex-direction: column;
-
-  margin: 20px 0 40px 127px;
 }
 
 footer > div p {
@@ -125,22 +131,21 @@ footer > div p {
 
 footer nav {
   display: flex;
-  flex-direction: row;
 
-  margin: 55px 0;
+  padding-top: 36px;
+}
+
+#categorias, #institucional {
+  flex: 1;
+}
+
+#categorias {
+  margin-right: 130px;
 }
 
 footer nav div {
   display: flex;
   flex-direction: column;
-}
-
-footer nav #categorias {
-  margin-right: 136px;
-}
-
-footer nav #institucional {
-  margin-right: 148px;
 }
 
 footer nav p {
