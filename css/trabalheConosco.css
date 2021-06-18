@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+
+.nav-link {
+  color: #777;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+section {
+  margin-bottom: 57px;
+}
+
+h2 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #575757;
+}
+
+.contato {
+  display: flex;
+}
+
+form,
+article {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  color: #9b9b9b;
+}
+
+input, select {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: 1px solid #9b9b9b;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #9b9b9b;
+  margin-right: 40px;
+}
+
+div.options {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+div.options div {
+  flex: 1;
+}
+
+textarea {
+  margin-bottom: 22px;
+}
+
+input#curriculo {
+  border: none;
+  margin-bottom: 22px;
+}
+
+button {
+  padding: 10px;
+  background-color: #c2185b;
+  border: none;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 248px;
+
+  background-color: #c2185b;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 0 40px 127px;
+}
+
+footer > div p {
+  width: 255px;
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  color: #fff;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: row;
+
+  margin: 55px 0;
+}
+
+footer nav div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer nav #categorias {
+  margin-right: 136px;
+}
+
+footer nav #institucional {
+  margin-right: 148px;
+}
+
+footer nav p {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: lowercase;
+  color: #fff;
+  margin: 0;
+}
+
+footer .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
+  color: #fff;
+}
