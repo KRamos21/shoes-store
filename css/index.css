@@ -28,7 +28,7 @@ header {
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 /* MAIN */
@@ -68,6 +68,8 @@ header {
   font-size: 44px;
   text-transform: uppercase;
   color: #FFF;
+
+  margin: 0;
 }
 
 #promocoes article {
@@ -167,12 +169,13 @@ footer nav {
   padding-top: 36px;
 }
 
-#categorias, #institucional {
+#categorias {
   flex: 1;
+  margin-right: 130px;
 }
 
-#categorias {
-  margin-right: 130px;
+#institucional {
+  flex: 2;
 }
 
 footer nav div {

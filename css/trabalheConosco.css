@@ -28,7 +28,7 @@ header {
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 /* MAIN */
@@ -135,12 +135,14 @@ footer nav {
   padding-top: 36px;
 }
 
-#categorias, #institucional {
-  flex: 1;
-}
 
 #categorias {
+  flex: 1;
   margin-right: 130px;
+}
+
+#institucional {
+  flex: 2;
 }
 
 footer nav div {
