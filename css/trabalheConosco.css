@@ -33,6 +33,20 @@ header {
 
 /* MAIN */
 
+.frete {
+  display: flex;
+  justify-content: center;
+  background-color: #c2185b;
+  position: sticky;
+  top: 0;
+}
+
+.frete p {
+  color: #fff;
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+
 section {
   margin-bottom: 57px;
 }

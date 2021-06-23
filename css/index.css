@@ -33,10 +33,26 @@ header {
 
 /* MAIN */
 
+.frete {
+  display: flex;
+  justify-content: center;
+  background-color: #c2185b;
+  position: sticky;
+  top: 0;
+  margin-bottom: 20px;
+}
+
+.frete p {
+  color: #fff;
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+
 .banner {
   background-image: url("../img/banner.png");
   height: 235px;
 }
+
 
 #estilo h1 {
   font-weight: 800;
